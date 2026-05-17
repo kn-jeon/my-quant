@@ -38,7 +38,7 @@ eps_required = st.sidebar.checkbox("당기순이익 흑자 기업만 보기 (EPS
 # 비밀번호 잠금장치 (간단한 프라이빗 설정)
 password = st.sidebar.text_input("🔑 접속 비밀번호 입력", type="password")
 
-if password != "내비밀번호123":  # 원하시는 비밀번호로 변경하세요
+if password != "1234":  # 원하시는 비밀번호로 변경하세요
     st.warning("사이드바에서 정확한 비밀번호를 입력해야 스캐너가 가동됩니다.")
     st.stop()
 
